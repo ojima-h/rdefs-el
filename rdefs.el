@@ -36,7 +36,7 @@
 ;;; Visit a ruby source code file and press Meta(ESC)-e, and you get
 ;;; the output from rdefs command.
 
-;; (setq ruby-mode-map (make-sparse-keymap))
+;;(setq ruby-mode-map (make-sparse-keymap))
 (define-key ruby-mode-map "\ee" 'ruby-defs)
 ;; (define-key ruby-mode-map "{" 'ruby-electric-brace)
 ;; (define-key ruby-mode-map "}" 'ruby-electric-brace)
